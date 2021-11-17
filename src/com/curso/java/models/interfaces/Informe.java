@@ -1,16 +1,36 @@
 package com.curso.java.models.interfaces;
 
-public class Informe extends Hoja{
+public class Informe extends Hoja implements Imprimible{
 
     private String autor;
     private String revisor;
 
-    public Informe(String contenido) {
+    public Informe(String contenido, String autor, String revisor) {
         super(contenido);
+        this.autor = autor;
+        this.revisor = revisor;
     }
 
     @Override
     public String imprimir() {
-        return null;
+        return "Informe escrito por : "+autor
+                +" Revisado por: "+revisor
+                +"\n "+this.contenido;
+    }
+
+    public String getAutor() {
+        return autor;
+    }
+
+    public void setAutor(String autor) {
+        this.autor = autor;
+    }
+
+    public String getRevisor() {
+        return revisor;
+    }
+
+    public void setRevisor(String revisor) {
+        this.revisor = revisor;
     }
 }

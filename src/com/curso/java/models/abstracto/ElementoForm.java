@@ -1,6 +1,5 @@
 package com.curso.java.models.abstracto;
 
-import com.curso.java.models.abstracto.validador.LargoValidador;
 import com.curso.java.models.abstracto.validador.Validador;
 import com.curso.java.models.abstracto.validador.mensaje.MensajeFormateable;
 
