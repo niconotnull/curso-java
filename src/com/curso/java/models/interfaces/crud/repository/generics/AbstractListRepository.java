@@ -48,5 +48,4 @@ public abstract class AbstractListRepository<T extends GenericEntity> implements
         return cliente;
     }
 
-
 }
