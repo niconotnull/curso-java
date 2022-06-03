@@ -4,6 +4,7 @@
 
 Abstract Factory es un patrón de diseño creacional que nos permite producir familias de objetos relacionados sin especificar sus clases concretas.
 
+<<<<<<< HEAD
 ## :factory: Estructura
 
 1. Los Productos Abstractos declaran interfaces para un grupo de productos diferentes pero relacionados que forman una familia de productos.
@@ -13,3 +14,6 @@ Abstract Factory es un patrón de diseño creacional que nos permite producir fa
 5. Aunque las fábricas concretas instancian productos concretos, las firmas de sus métodos de creación deben devolver los productos abstractos correspondientes. De este modo, el código cliente que utiliza una fábrica no se acopla a la variante específica del producto que obtiene de una fábrica. El Cliente puede funcionar con cualquier variante fábrica/producto concreta, siempre y cuando se comunique con sus objetos a través de interfaces abstractas.
 
 
+=======
+## :anguished: Problema
+>>>>>>> bbf5b6a5d8968e1996acb2d3c84f5dfe4dee5f5e
